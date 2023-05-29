@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/Mohamedsalahmsa/perfume_store)
-- Live Site URL:(https://github.com/Mohamedsalahmsa/perfume_store)
+- Solution Title: (perfume-Card-Store With flex-Box)
+- Live Site URL:(https://mohamedsalahmsa.github.io/perfume_store/)
 
 ### Built with Mohamed Salah
 
