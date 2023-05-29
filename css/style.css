@@ -154,7 +154,7 @@ height: 30%;
         width: 87% !important;
     }
     .container .card img {
-        content: url(../images/image-product-mobile.jpg);
+        content: url(/./perfume_store/images/image-product-mobile.jpg);
         width: 100%;
         border-top-right-radius: 10px ;
         -webkit-border-top-right-radius: 10px ;
