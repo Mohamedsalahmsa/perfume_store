@@ -1,0 +1,197 @@
+/***** Reset *****/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+ 
+/* --------------------------------------------------- */
+/* global */
+
+@font-face {
+    font-family: ItalicFont;
+    src: url(/fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: VariableFont;
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Italic-VariableFont;
+    src: url(/fonts/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+@font-face {
+    font-family: Fraunces-VariableFont;
+    src: url(/fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+
+:root {
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+body {
+    background-color: var(--Cream);
+   
+}
+/* --------------------------------------------------------- */
+
+
+/* Container  */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container .card {
+   background-color: var(--White);
+   display: flex;
+   width: 40% ;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+.container .card .texts {
+    padding: 30px 10px 10px 10px;
+}
+.container .card .texts .perfume-text {
+    font-size: 10px;
+    letter-spacing: 6px;
+    color: var(--Dark-grayish-blue);
+    text-transform: uppercase;
+    font-family: VariableFont;
+    font-weight: 500;
+}
+.container .card .texts h1 {
+    font-size: 25px;
+    font-family: Fraunces-VariableFont;
+    color: var(--Very-dark-blue);
+    padding: 14px 0 14px 0;
+}
+.container .card .texts .P-under-head-title {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: var(--Dark-grayish-blue);
+    font-family: VariableFont;
+   font-family: 700;
+    font-size: 14px;
+}
+.container img {
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 20px;
+   
+}
+.container .card .price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.container .card .price p{
+    text-decoration: line-through;
+    color: var(--Dark-grayish-blue);
+    font-size: 13px;
+    font-family: Fraunces-VariableFont;
+    transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    -o-transform: translateY(2px);
+}
+.container .card .price h2 {
+    color: var(--Dark-cyan);
+    font-size: 29px;
+    font-family: Fraunces-VariableFont;
+}
+.container .card .texts .btn {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 30%;
+}
+.container .card .texts .btn button {
+    width: 100%;
+    margin-right: 20px;
+    padding: 13px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: none;
+    background-color: var(--Dark-cyan);
+    color: #fff;
+    font-family: VariableFont;
+    font-weight: 700;
+    cursor: pointer;
+   
+}
+.container .card .texts .btn button:hover {
+    background-color: rgb(18, 80, 51);
+}
+/* ------------------------------------------------------------- */
+
+/* media query */
+@media screen and (max-width: 599px) {
+    .container .card{
+        
+        display: flex;
+        flex-direction: column;
+        width: 87% !important;
+    }
+    .container .card img {
+        content: url(/images/image-product-mobile.jpg);
+        width: 100%;
+        border-top-right-radius: 10px ;
+        -webkit-border-top-right-radius: 10px ;
+        -moz-border-top-right-radius: 10px ;
+        -ms-border-top-right-radius: 10px ;
+        -o-border-top-right-radius: 10px ;
+        border-bottom-left-radius: 0px;
+}
+.container .card .texts {
+    padding: 30px;
+}
+.container .card .price {
+    margin-bottom: 13px;
+}
+}
+@media screen and (min-width: 600px) {
+    .container .card {
+       width: 90% !important;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .container .card {
+       width: 53% !important;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .container .card {
+       width: 39% !important;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .container .card {
+       width: 60% !important;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container .card {
+       width: 43% !important;
+    }
+}
