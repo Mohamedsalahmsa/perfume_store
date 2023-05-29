@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/scrnli_5_29_2023_7-45-38%20AM.png)
+![](./images/scrnli_5_29_2023_10-02-47%20AM.png)
 
 
 ### Links
