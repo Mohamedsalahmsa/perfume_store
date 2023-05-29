@@ -154,7 +154,7 @@ height: 30%;
         width: 87% !important;
     }
        .container .card .texts {
-        font-size: 29px;
+        font-size: 29px !important;
     }
     .attribution {
         transform: translateY(-40%);
