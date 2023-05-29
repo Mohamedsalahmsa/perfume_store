@@ -16,19 +16,19 @@ a {
 
 @font-face {
     font-family: ItalicFont;
-    src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+    src: url(/./perfume_store/fonts/Montserrat-Italic-VariableFont_wght.ttf);
 }
 @font-face {
     font-family: VariableFont;
-    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(/./perfume_store/fonts/Montserrat-VariableFont_wght.ttf);
 }
 @font-face {
     font-family: Italic-VariableFont;
-    src: url(../fonts/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+    src: url(/./perfume_store/fonts/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
 }
 @font-face {
     font-family: Fraunces-VariableFont;
-    src: url(../fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+    src: url(/./perfume_store/fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
 }
 
 
