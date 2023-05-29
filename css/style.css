@@ -76,7 +76,7 @@ body {
     font-weight: 500;
 }
 .container .card .texts h1 {
-    font-size: 25px;
+    font-size: 36px;
     font-family: Fraunces-VariableFont;
     color: var(--Very-dark-blue);
     padding: 14px 0 14px 0;
@@ -153,6 +153,16 @@ height: 30%;
         flex-direction: column;
         width: 87% !important;
     }
+       .container .card .texts {
+        font-size: 29px;
+    }
+    .attribution {
+        transform: translateY(-40%);
+        -webkit-transform: translateY(-40%);
+        -moz-transform: translateY(-40%);
+        -ms-transform: translateY(-40%);
+        -o-transform: translateY(-40%);
+}
     .container .card img {
         content: url(/./perfume_store/images/image-product-mobile.jpg);
         width: 100%;
@@ -193,5 +203,8 @@ height: 30%;
 @media screen and (min-width: 1200px) {
     .container .card {
        width: 43.5% !important;
+    }
+    .container .card .texts h1 {
+        font-size: 36px;
     }
 }
